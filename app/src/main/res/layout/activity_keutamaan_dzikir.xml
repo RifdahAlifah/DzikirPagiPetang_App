@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_bg"
+    tools:context=".KeutamaanDzikir">
+
+    <LinearLayout
+        android:id="@+id/ll_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45dp"
+        android:background="@drawable/rectangle"
+        android:elevation="@dimen/_5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_arrow_back"
+            android:layout_width="@dimen/_25dp"
+            android:layout_height="@dimen/_25dp"
+            android:layout_marginEnd="@dimen/_15dp"
+            android:contentDescription="@string/contdesc"
+            android:src="@drawable/ic_arrow_rotate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins"
+            android:text="@string/text_keutamaan_dzikir_pagi_petang"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_btn_share"
+            android:layout_width="@dimen/_25dp"
+            android:layout_height="@dimen/_25dp"
+            android:layout_marginStart="@dimen/_15dp"
+            android:contentDescription="@string/contdesc"
+            android:src="@drawable/ic_share_white" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_keutamaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ll_bar">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@id/sv_keutamaan"
+            app:layout_constraintEnd_toEndOf="@id/sv_keutamaan"
+            app:layout_constraintStart_toStartOf="@id/sv_keutamaan"
+            app:layout_constraintTop_toTopOf="@id/sv_keutamaan">
+
+            <LinearLayout
+                android:id="@+id/ll_keutamaan_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_25dp"
+                android:background="@drawable/rectangle_keutamaan"
+                android:elevation="@dimen/_25dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="@dimen/_10dp">
+
+                <TextView
+                    android:id="@+id/tv_keutamaan_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/keutamaan_1"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_arab_keutamaan_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aaa_golden_arab"
+                    android:text="@string/keutamaan_1_arab"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_18sp" />
+
+                <TextView
+                    android:id="@+id/tv_arti_keutamaan_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="@string/keutamaan_1_arti"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_25dp"
+                android:background="@drawable/rectangle_keutamaan"
+                android:elevation="@dimen/_25dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="@dimen/_10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/keutamaan_2"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aaa_golden_arab"
+                    android:text="@string/keutamaan_2_arab"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="@string/keutamaan_2_arti"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_25dp"
+                android:background="@drawable/rectangle_keutamaan"
+                android:elevation="@dimen/_25dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="@dimen/_10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/keutamaan_3"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aaa_golden_arab"
+                    android:text="@string/keutamaan_3_arab"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="@string/keutamaan_3_arti"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sp"
+                android:fontFamily="@font/poppins"
+                android:text="@string/text_sumber"
+                android:textColor="@android:color/black"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

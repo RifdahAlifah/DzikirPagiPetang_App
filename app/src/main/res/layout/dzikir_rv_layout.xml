@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_410dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_12dp"
+    app:cardElevation="@dimen/_5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:cardCornerRadius="@dimen/_12dp"
+            app:cardElevation="@dimen/_5dp">
+
+
+            <RelativeLayout
+                android:id="@+id/relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#BCB0AA"
+                android:gravity="bottom">
+
+                <com.flaviofaria.kenburnsview.KenBurnsView
+                    android:id="@+id/dzikirImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1360dp" />
+
+                <View
+                    android:id="@+id/trans_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+
+                <TextView
+                    android:id="@+id/tv_sequence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_12dp"
+                    android:layout_marginEnd="@dimen/_12dp"
+                    android:background="@drawable/ic_sequence"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/_1_17"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sequence"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_14dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="@string/text_title"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_repeat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/text_dibaca_1x"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_dzikir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_repeat"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/_12dp"
+                    android:fontFamily="@font/aaa_golden_arab"
+                    android:gravity="center"
+                    android:text="@string/text_bismillah"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_33sp" />
+
+                <TextView
+                    android:id="@+id/tv_latin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_dzikir"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/_12dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="@string/text_bismillahirrahmanirrahim"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/tv_translate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_latin"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/_12dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="@string/text_arti"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_18sp" />
+
+                <TextView
+                    android:id="@+id/tv_faedah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_translate"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/grey"
+                    android:fontFamily="@font/poppins"
+                    android:padding="@dimen/_6dp"
+                    android:text="@string/text_faedah"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14sp" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+
+</androidx.cardview.widget.CardView>
+

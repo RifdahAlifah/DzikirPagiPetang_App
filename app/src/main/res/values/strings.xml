@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">At-tadzkir\n[Dzikir Pagi &amp; Petang Sesuai Sunnah]</string>
+    <string name="keutamaan_1">⸙ Ibnul Qayyim rahimahullah berkata :</string>
+    <string name="keutamaan_1_arab">أذكار الصباح والمساء بمثابة الدرع كلما زادت سماكته لم يتأثر صاحبه، بل تصل قوة الدرع أن يعود السهم فيصيب من أطلقه</string>
+    <string name="keutamaan_1_arti">“Dzikir pagi dan petang seperti baju besi, semakin bertambah ketebalannya maka pemiliknya semakin tidak terkena (bahaya). Bahkan kekuatan baju besi itu bisa sampai memantulkan kembali anak panah sehingga berbalik mengenai pemanahnya sendiri.”</string>
+    <string name="keutamaan_2">⸙ Ibnu ash-Shalah rahimahullah berkata :</string>
+    <string name="keutamaan_2_arab">من حافظ على أذكار الصباح والمساء، وأذكار بعد الصلوات، وأذكار النوم، عُدّ من الذاكرين الله كثيراً</string>
+    <string name="keutamaan_2_arti">“Barangsiapa menjaga pengamalan dzikir pagi dan petang, dzikir bada shalat, dan dzikir tidur, maka dia dihitung termasuk orang-orang yang banyak berdzikir kepada Allah.”</string>
+    <string name="keutamaan_3">⸙ Ibnu Katsir rahimahullah berkata :</string>
+    <string name="keutamaan_3_arab">البسوا معطف الأذكار ليقيكم شرور الإنس والجان ودثروا أرواحكم بالاستغفار لتمحي لكم ذنوب الليل والنهار ,وإن أصابكم ماتكرهونه فسترضون وتتيقنون بأنه خير قدره لكم ربكم لأنكم قد تحصنتم بالله</string>
+    <string name="keutamaan_3_arti">“Kenakanlah pakaian dzikir agar menjaga kalian dari kejelekan-kejelekan manusia dan jin, Selimutilah ruh-ruh kalian dengan istighfar, supaya menghapus dosa-dosa siang dan malam. Apabila ada sesuatu yang kalian benci menimpa kalian, maka kalian akan ridha dan kalian akan yakin bahwa itu merupakan kebaikan yang ditaqdirkan untuk kalian oleh Rabb kalian, karena kalian telah berlindung kepada Allah.”</string>
+    <string name="text_sumber"> • Al-Waabil ash-Shayyib min al-Kalim at-Thayyib, 71k </string>
+    <string name="contdesc">contdesc</string>
+    <string name="_1_17">[ 1 / 17]</string>
+    <string name="text_title">Title</string>
+    <string name="text_dibaca_1x">( dibaca 1x )</string>
+    <string name="text_bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</string>
+    <string name="text_bismillahirrahmanirrahim">Bismillahirrahmanirrahim</string>
+    <string name="text_arti">Dengan Menyebut Nama Allah yang Maha Pengasih Lagi Maha Penyayang</string>
+    <string name="text_faedah">Faedah</string>
+    <string name="text_dalil_dzikir_pagi_petang">Dalil Dzikir Pagi Petang</string>
+    <string name="tv_dalil_arab">وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا</string>
+    <string name="text_al_ahzab_42">[Al-Ahzab : 42]</string>
+    <string name="tv_arti_dalil">“dan bertasbihlah kepada-Nya pada \nwaktu pagi dan petang.”</string>
+    <string name="text_dzikir_pagi">Dzikir Pagi</string>
+    <string name="text_dzikir_petang">Dzikir Petang</string>
+    <string name="text_keutamaan_dzikir_pagi_petang">Keutamaan Dzikir Pagi Petang</string>
+</resources>
